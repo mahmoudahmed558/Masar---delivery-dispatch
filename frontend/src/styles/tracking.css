@@ -1,0 +1,154 @@
+/* ===================== TRACKING PAGE ===================== */
+.tracking-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.tracking-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.tracking-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+}
+.tracking-header h1 {
+  margin-bottom: 0.25rem;
+  font-size: 1.75rem;
+}
+.tracking-header p {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.tracking-search {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+.tracking-search input { flex: 1; }
+.tracking-error {
+  padding: 1rem;
+  text-align: center;
+  color: var(--danger-color);
+}
+
+.tracking-result {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.tracking-card { padding: 1.5rem; }
+.tracking-code-display {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.tracking-code-display span {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.25rem;
+}
+.tracking-code-display strong {
+  font-size: 1.75rem;
+  color: var(--primary-light);
+  font-family: 'Courier New', monospace;
+  letter-spacing: 2px;
+}
+.tracking-status {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* ===================== PROGRESS BAR ===================== */
+.progress-bar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 1rem;
+}
+.progress-bar::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  right: 5%;
+  height: 3px;
+  background: var(--glass-border);
+}
+.progress-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  flex: 1;
+}
+.step-dot {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--bg-dark);
+  border: 3px solid var(--glass-border);
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+.progress-step.active .step-dot {
+  background: var(--primary-color);
+  border-color: var(--primary-light);
+  box-shadow: 0 0 10px rgba(108, 92, 231, 0.4);
+}
+.step-label {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  text-transform: capitalize;
+  text-align: center;
+}
+.progress-step.active .step-label {
+  color: var(--primary-light);
+  font-weight: 600;
+}
+
+.failed-banner {
+  background: rgba(225, 112, 85, 0.15);
+  color: var(--danger-color);
+  padding: 1rem;
+  border-radius: var(--border-radius-small);
+  text-align: center;
+  border: 1px solid rgba(225, 112, 85, 0.3);
+}
+
+/* Tracking Details */
+.tracking-details {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+.tracking-details > div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.tracking-details .label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+.tracking-details .arrow {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+.map-placeholder {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-dark);
+  border-radius: var(--border-radius-small);
+  color: var(--text-muted);
+}

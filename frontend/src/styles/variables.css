@@ -1,0 +1,37 @@
+/* src/styles/variables.css */
+:root {
+  --primary-color: #E8192C;
+  --primary-light: #FF3B4E;
+  --primary-dark: #C41425;
+  --secondary-color: #888888;
+  --secondary-light: #A0A0A0;
+  --bg-dark: #0B0C10;
+  --bg-card: #13141B;
+  --bg-card-hover: #1C1D26;
+  --bg-sidebar: #08090C;
+  --text-primary: #FFFFFF;
+  --text-secondary: #888888;
+  --text-muted: #4A4D57;
+  --status-pending: #FDCB6E;
+  --status-assigned: #3498DB;
+  --status-picked_up: #9B59B6;
+  --status-on_the_way: #E8192C;
+  --status-delivered: #00B894;
+  --status-failed: #E17055;
+  --status-cancelled: #4A4D57;
+  --success-color: #00B894;
+  --warning-color: #FDCB6E;
+  --danger-color: #E8192C;
+  --info-color: #3498DB;
+  --font-family: 'Inter', 'Segoe UI', sans-serif;
+  --font-family-arabic: 'Cairo', 'IBM Plex Sans Arabic', sans-serif;
+  --border-radius: 12px;
+  --border-radius-small: 6px;
+  --border-radius-large: 16px;
+  --shadow-small: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-medium: 0 8px 24px rgba(0, 0, 0, 0.6);
+  --shadow-large: 0 12px 48px rgba(0, 0, 0, 0.8);
+  --glass-background: rgba(19, 20, 27, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.05);
+  --glass-blur: 16px;
+}

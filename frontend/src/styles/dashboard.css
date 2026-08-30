@@ -1,0 +1,5 @@
+
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+.stats-card { padding: 1.5rem; display: flex; justify-content: space-between; align-items: center; }
+.stats-value { font-size: 2rem; font-weight: bold; margin-top: 0.5rem; }
+.map-container { padding: 1.5rem; }
